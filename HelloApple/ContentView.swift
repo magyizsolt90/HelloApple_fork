@@ -18,7 +18,7 @@ struct ContentView: View {
                 .foregroundColor(.black)
             Text("Hello, \(name)")
         }
-        .padding()
+        .padding(30)
         .background(Color.blue)
     }
 }
